@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Binevenido</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+  <div class="h-100 p-5 text-white bg-dark rounded-3">
+    <h2>pulgas electronicas</h2>
+    <p>aqui podras comprar cosas y reutilizarlas </p>
+    <a href="{{ url_for('about') }}" class="btn btn-outline-light" type="button">entrar</a>
+  </div>
+{% endblock %}
+

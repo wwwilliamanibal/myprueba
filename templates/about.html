@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>pagina 2</h1>
+
+<div class="alert alert-dark" role="alert">
+    <h4 class="alert-heading">Mantenimientos</h4>
+    <p>CYBERLAN te da la Bienvenida</p>
+    <hr>
+    <p class="mb-0">Brindamos soporte técnico y productos de calidad, ofreciendo alternativas y soluciones viables en
+        tecnología, llegando a su empresa con soporte a domicilio o desde nuestra oficina buscando así optimizar el
+        valioso
+        tiempo de nuestros distinguidos clientes.
+    </p>
+    <a class="btn btn-primary btn-lg" href="/" role="button">Contacto</a>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+
+<div class="card" style="width: 18rem;">
+    <img src="/static/img/IMP.bmp" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="alert-dark">elemento</h5>
+        <p class="mb-0">comprararararara </p>
+        <a href="{{ url_for('home') }}" class="btn btn-primary">inicio</a>
+    </div>
+</div>
+
+
+{% endblock %}
