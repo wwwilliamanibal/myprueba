@@ -1,2 +1,0 @@
-# myprueba
-una prueba
